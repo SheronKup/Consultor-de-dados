@@ -15,6 +15,8 @@ consultar.addEventListener("click", ()=>{
         resposta.innerHTML += "Bairro: " + dados.bairo + "<br>"
         resposta.innerHTML += "Estado:  " + dados.uf + "<br>"
 
+        resposta.style.fontSize = "1.4rem"
+        resposta.style.fontWeight = "bold"
 
     })
     .catch((err)=>{
